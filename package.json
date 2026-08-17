@@ -1,0 +1,25 @@
+{
+  "name": "github-actions-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+  "test": "jest",
+  "build": "node -e \"console.log('Build completed successfully')\""
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aashu24ahuja/github-actions-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aashu24ahuja/github-actions-sample/issues"
+  },
+  "homepage": "https://github.com/aashu24ahuja/github-actions-sample#readme",
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
