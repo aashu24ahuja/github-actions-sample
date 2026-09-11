@@ -7,3 +7,7 @@ test("adds two numbers", () => {
 test2("adds two numbers", () => {
   expect(add(4, 3)).toBe(7);
 });
+
+test("subtracts two numbers", () => {
+  expect(subtract(5, 3)).toBe(2);
+});
