@@ -1,10 +1,10 @@
-const { add } = require("./calculator");
+const { add, subtract } = require("./calculator");
 
 test("adds two numbers", () => {
   expect(add(2, 3)).toBe(5);
 });
 
-test2("adds two numbers", () => {
+test("adds two numbers", () => {
   expect(add(4, 3)).toBe(7);
 });
 
